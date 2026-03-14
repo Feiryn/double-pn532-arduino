@@ -23,6 +23,8 @@ I use it mainly on my ITGmania cards server project: [ITGmania Cards Server](htt
 
 Don't forget to switch the jumpers on the PN532 modules to select the correct communication mode (HSU for the first module and I2C for the second module).
 
+For an Arduino Leonardo, the SDA pin is 2 and the SCL pin is 3, and the SoftwareSerial pins are suggested to be 9 and 8.
+
 ## Software
 
 The project uses this library: [PN532](https://github.com/elechouse/PN532). Make sure to install it in your Arduino IDE.
