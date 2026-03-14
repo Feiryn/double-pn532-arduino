@@ -21,6 +21,8 @@ I use it mainly on my ITGmania cards server project: [ITGmania Cards Server](htt
    - SDA to A4 (or the SDA pin on your Arduino)
    - SCL to A5 (or the SCL pin on your Arduino)
 
+Don't forget to switch the jumpers on the PN532 modules to select the correct communication mode (HSU for the first module and I2C for the second module).
+
 ## Software
 
 The project uses this library: [PN532](https://github.com/elechouse/PN532). Make sure to install it in your Arduino IDE.
